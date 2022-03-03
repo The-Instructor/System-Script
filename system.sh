@@ -10,15 +10,15 @@
 
 
 # Output the current username
-
+echo $USER
 
 # Output the date in MM-DD-YYYY format
-
+date +%m-%d-%Y
 
 # Output current users logged into the system
-
-
+who
 # Output uptime in pretty format
-
+uptime -p
 
 # Output summarized disk usage for all home directories on the system
+du -sh /home/*
