@@ -10,15 +10,20 @@
 
 
 # Output the current username
-
+echo Current Usernam:
+whoami
 
 # Output the date in MM-DD-YYYY format
-
+echo Current Date:
+date +%m-%d-%Y
 
 # Output current users logged into the system
-
-
-# Output uptime in pretty format
-
+echo Logged in Users:
+who -su
+# Output uptime in pretty format 
+echo Uptime:
+uptime -p
 
 # Output summarized disk usage for all home directories on the system
+echo Disk Usage Summary:
+du -sh /home/* 2>/dev/null
