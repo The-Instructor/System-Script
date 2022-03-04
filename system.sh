@@ -13,7 +13,7 @@
 echo $USER
 
 # Output the date in MM-DD-YYYY format
-
+date +%m-%d-%Y
 
 # Output current users logged into the system
 
