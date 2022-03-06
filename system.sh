@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: <Your Name>
+# author: <Tuan Nguyen_stats.Txt>
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Complete the following exercises using Bash commands.
@@ -9,17 +9,20 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Output the current username
+#Output the current username
+echo Current Username
 whoami
 
-Output the date in MM-DD-YYYY format
+#Output the date in MM-DD-YYYY format
+echo Current Date:
 date +%m-%d-%Y
 
-Output current users logged into the system
-w
-
-# Output uptime in pretty format
+#Output current users logged into the system
+echo logged in Users
+who -su
+#Output uptime in pretty format
+echo Uptime:
 uptime -p
-
- Output summarized disk usage for all home directories on the system
-du
+#Output summarized disk usage for all home directories on the system
+echo Disk Usage Summary:
+du -sh /home/* 2>/dev/null
