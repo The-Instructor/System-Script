@@ -9,16 +9,17 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-# Output the current username
+Output the current username
+whoami
 
+Output the date in MM-DD-YYYY format
+date +%m-%d-%Y
 
-# Output the date in MM-DD-YYYY format
-
-
-# Output current users logged into the system
-
+Output current users logged into the system
+w
 
 # Output uptime in pretty format
+uptime -p
 
-
-# Output summarized disk usage for all home directories on the system
+ Output summarized disk usage for all home directories on the system
+du
